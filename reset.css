@@ -1,0 +1,22 @@
+/* Reset CSS */
+html body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, dl, dt, dd, ol, ul, li, fieldset, legend, form, label, input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+    background-color: hsla(253, 100%, 27%, 1);
+    background-image: radial-gradient(circle at 48% 50%, hsla(273, 90%, 49%, 1) 9.45100111700773%, transparent 66.90222736333041%), radial-gradient(circle at 70% 72%, hsla(297, 70%, 44%, 1) 12.019916069930487%, transparent 48.99175767907703%), radial-gradient(circle at 90% 15%, hsla(207, 77%, 53%, 1) 18.05890413395853%, transparent 81%), radial-gradient(circle at 44% 53%, hsla(297, 98%, 33%, 1) 0%, transparent 55.377223394289686%), radial-gradient(circle at 38% 55%, hsla(271, 99%, 53%, 1) 24.287087723027025%, transparent 56.37857556000195%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Add your custom styles below this line */
